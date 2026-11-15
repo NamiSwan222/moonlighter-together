@@ -1,0 +1,19 @@
+# Never commit anything of the game (copyright): the test copy of the game and the decompiled game code.
+/testgame/
+/decomp/
+# Other people's mods read for research (they live in their own repositories).
+/reference/
+# Tools and downloads fetched locally (ilspycmd, the BepInEx zip; see tools/make-release.ps1 for the hash).
+/tools/ilspy/
+/tools/downloads/
+# Test output, logs, screenshots, profiles.
+/run/
+# Build output.
+bin/
+obj/
+*.user
+.vs/
+# Release builds are published as GitHub releases, not committed.
+/release/
+__pycache__/
+*.pyc
